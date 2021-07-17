@@ -166,96 +166,7 @@ body{
 	.nav-link .nav-item { 
 		font-size: 50px ;}
 			
-	/******HI! Im Carlos******/		
-	#prof{
-		width:50%;
-	}
 	
-	#webDev, #learner, #skills, #education, #projects{
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
-	color: black;
-	font-size:40px;
-	text-align: center;
-	font-weight: bold; }
-
-
-	.first-container, #ed, .second-container{
-		align-items: center;
-		text-align:justify;
-		margin-top: 50px ;
-		color: white ;
-		 }
-	
-	.first-paragraph, .second-paragraph, .ed-parag {
-		font-family: 'Roboto', sans-serif;
-		text-align:justify;
-		font-size:20px;
-		line-height: 1.5;
-		letter-spacing: 1.5px; 
-		margin-top:10px;}
-	
-	
-	
-	.first-first-container{
-		margin-top:20px;
-		margin-right:50px;
-		margin-left:50px	
-	}
-	
-	/******Skills************/
-	}
-	
-	#allSkills{
-		font-size:20px
-	}
-
-	#frontEnd{
-		text-align:center ; 
-		margin-bottom: 5px ;
-		margin-top: 40px ;
-		font-size: 30px;
-	 }	
-
-	 /*********Education*************/
-	 h2{
-		 font-size: 15px;
-	 }
-	 
-	/*********FOoter****/
-	 #footer{
-		text-align:center;
-		margin-top:100px;
-		margin-bottom:50px;
-		font-family: 'Roboto', sans-serif ;
-		font-size:15px;
-		font-weight:bold;
-		
-	 }
-	/*********FOoter****/
-	footer{
-		display:block ;
-		position:absolute ;
-		left:0 ;
-		right: 0 ;
-		background-color: white;
-		width:100% ;
-		text-align: center;
-		padding:10px ;
-		margin-top:100px;
-		font-family: 'Roboto', sans-serif ;
-		font-size:15px;
-		font-weight:bold;
-	 }
-	
-	 #fb, #github, #ig, #twitter {
-		padding-top:20px ; 
-		width:10%
-	 }
-	
-	 .footer{
-		color:black;
-		margin-top:20px; }
-
 	
  
 
@@ -263,4 +174,4 @@ body{
 
 
 
-     }
+ 
