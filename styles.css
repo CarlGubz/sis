@@ -1,0 +1,266 @@
+
+body{
+	background-color: #e7eaf1 ;
+	margin-right:200px;
+	margin-left:200px }
+
+#hr{width: 100% ;
+	background: black}
+
+
+.websiteLogo {
+	display: block ; 
+	max-width:100px;
+	}
+#navbarSupportedContent{
+    font-size: 20px ;
+    color: black
+}
+.navbar{
+    margin-top:0px
+}    
+.navbar-brand{
+    font-size: 50px
+}
+	
+.nav-link .nav-item{ 
+	font-size: 50px ;
+    color: black}
+
+
+/******HI! Im Carlos******/						
+#prof{
+	width:20%;
+	display:block ;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#webDev {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		color:black;
+		font-weight: bold;
+		text-align: center; }
+	
+#learner, #education,#projects, #skills {font-family:Verdana, Geneva, Tahoma, sans-serif;
+		color: black;
+		font-size: 30px;
+		text-align: center;
+		font-weight: bold; }
+
+.first-container, #ed, #div-projects, .second-container{
+	align-items: center;
+	text-align:justify;
+	margin-top: 80px ;
+	color: black ;
+	margin-right:50px;
+	margin-left:50px;
+	 }
+
+.first-paragraph, .first-first-paragraph, .second-paragraph, .ed-parag {
+	font-family: 'Roboto', sans-serif;
+	text-align:justify;
+	font-size:18px;
+	line-height: 2.0;
+	letter-spacing: 2px; 
+	margin-top:20px;}
+
+
+
+.first-first-container{
+	margin-top:130px;
+	font-size: 15px ;
+	line-height: 2.0;
+	color: black ;
+	margin-right:50px;
+	margin-left:50px	
+}
+
+/******Skills************/
+ 
+#allSkills{
+	width:100%;
+	padding:30px ;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size:20px;
+	font-family: 'Roboto', sans-serif ;
+	font-weight: bold;
+
+}
+#frontEnd{
+	text-align:center ; 
+	margin-bottom: 5px ;
+	margin-top: 40px ;
+	font-size: 30px;
+ }	
+#frontEndPic{
+	margin-bottom: 40px ;
+	width:500px ;
+ }
+ 
+ 
+ #skills-content{
+	 font-weight: normal;
+ }
+
+ /*********Education*************/
+ h2{
+	font-size: 30px;
+}
+
+ /*********FOoter****/
+ footer{
+	display:block ;
+	position:absolute ;
+	left:0 ;
+	right: 0 ;
+	background-color: white;
+	width:100% ;
+	text-align: center;
+	padding:10px ;
+	margin-top:100px;
+	font-family: 'Roboto', sans-serif ;
+	font-size:15px;
+	font-weight:bold;
+ }
+
+ #fb, #github, #ig, #twitter {
+	padding-top:20px ; 
+	width:3%
+ }
+
+ .footer{
+	color:black;
+	margin-top:20px; }
+	
+
+/*PC*/
+@media(max-width:1281px){
+	body{
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+/*Mobile*/
+@media (min-width:320px){
+	body {
+		margin:0px;}
+
+	.navbar-brand{
+		display:none ;
+		position: relative;
+		left:50% ;
+	
+	
+	}#hr{width: 100% ;
+		background: white}
+	
+	.websiteLogo {
+		display: block ; 
+		max-width:100px;
+		}
+	
+		
+	.nav-link .nav-item { 
+		font-size: 50px ;}
+			
+	/******HI! Im Carlos******/		
+	#prof{
+		width:50%;
+	}
+	
+	#webDev, #learner, #skills, #education, #projects{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color: black;
+	font-size:40px;
+	text-align: center;
+	font-weight: bold; }
+
+
+	.first-container, #ed, .second-container{
+		align-items: center;
+		text-align:justify;
+		margin-top: 50px ;
+		color: white ;
+		 }
+	
+	.first-paragraph, .second-paragraph, .ed-parag {
+		font-family: 'Roboto', sans-serif;
+		text-align:justify;
+		font-size:20px;
+		line-height: 1.5;
+		letter-spacing: 1.5px; 
+		margin-top:10px;}
+	
+	
+	
+	.first-first-container{
+		margin-top:20px;
+		margin-right:50px;
+		margin-left:50px	
+	}
+	
+	/******Skills************/
+	}
+	
+	#allSkills{
+		font-size:20px
+	}
+
+	#frontEnd{
+		text-align:center ; 
+		margin-bottom: 5px ;
+		margin-top: 40px ;
+		font-size: 30px;
+	 }	
+
+	 /*********Education*************/
+	 h2{
+		 font-size: 15px;
+	 }
+	 
+	/*********FOoter****/
+	 #footer{
+		text-align:center;
+		margin-top:100px;
+		margin-bottom:50px;
+		font-family: 'Roboto', sans-serif ;
+		font-size:15px;
+		font-weight:bold;
+		
+	 }
+	/*********FOoter****/
+	footer{
+		display:block ;
+		position:absolute ;
+		left:0 ;
+		right: 0 ;
+		background-color: white;
+		width:100% ;
+		text-align: center;
+		padding:10px ;
+		margin-top:100px;
+		font-family: 'Roboto', sans-serif ;
+		font-size:15px;
+		font-weight:bold;
+	 }
+	
+	 #fb, #github, #ig, #twitter {
+		padding-top:20px ; 
+		width:10%
+	 }
+	
+	 .footer{
+		color:black;
+		margin-top:20px; }
+
+	
+ 
+
+
+
+
+
+     }
