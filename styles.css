@@ -1,4 +1,7 @@
 
+/****Navigation bar******/
+
+
 body{
 	background-color: #e7eaf1 ;
 	margin-right:200px;
@@ -28,126 +31,79 @@ body{
     color: black}
 
 
-/******HI! Im Carlos******/						
-#prof{
-	width:20%;
-	display:block ;
-	margin-left: auto;
-	margin-right: auto;
+/***Carousel****/
+.carousel {
+	width:100%; /* Or try to use important */
+	height:auto;
+  }
 
-}
-#webDev {
-		font-family: Verdana, Geneva, Tahoma, sans-serif;
-		color:black;
-		font-weight: bold;
-		text-align: center; }
-	
-#learner, #education,#projects, #skills {font-family:Verdana, Geneva, Tahoma, sans-serif;
-		color: black;
-		font-size: 30px;
-		text-align: center;
-		font-weight: bold; }
+/*Collections*/
 
-.first-container, #ed, #div-projects, .second-container{
-	align-items: center;
-	text-align:justify;
-	margin-top: 80px ;
-	color: black ;
-	margin-right:50px;
-	margin-left:50px;
-	 }
-
-.first-paragraph, .first-first-paragraph, .second-paragraph, .ed-parag {
-	font-family: 'Roboto', sans-serif;
-	text-align:justify;
-	font-size:18px;
-	line-height: 2.0;
-	letter-spacing: 2px; 
-	margin-top:20px;}
-
-
-
-.first-first-container{
-	margin-top:130px;
-	font-size: 15px ;
-	line-height: 2.0;
-	color: black ;
-	margin-right:50px;
-	margin-left:50px	
-}
-
-/******Skills************/
- 
-#allSkills{
-	width:100%;
-	padding:30px ;
-	margin-left: auto;
-	margin-right: auto;
+#collections, .first-collections{
+	margin-top : 100px;
+	margin-bottom: 100px;
 	text-align: center;
-	font-size:20px;
-	font-family: 'Roboto', sans-serif ;
-	font-weight: bold;
-
+	width: 100%;
+	
 }
-#frontEnd{
-	text-align:center ; 
-	margin-bottom: 5px ;
-	margin-top: 40px ;
-	font-size: 30px;
- }	
-#frontEndPic{
-	margin-bottom: 40px ;
-	width:500px ;
- }
- 
- 
- #skills-content{
-	 font-weight: normal;
- }
-
- /*********Education*************/
- h2{
-	font-size: 30px;
+.col{
+	size: 20%;
 }
 
- /*********FOoter****/
- footer{
+
+
+/*** Order***/
+
+#order{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+
+
+/**** Founder **/
+#founder{
+	text-align: center;
+}
+
+
+.founders, .founder1{
+	width:50% ;
+}
+
+
+
+
+
+
+/**********Contact*/
+#contact{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px ; 
+	
+}
+
+
+
+/****Footer***/
+
+.footer{
 	display:block ;
 	position:absolute ;
 	left:0 ;
 	right: 0 ;
-	background-color: white;
+	background-color: orange;
 	width:100% ;
 	text-align: center;
 	padding:10px ;
+	padding-top: 30px;
 	margin-top:100px;
 	font-family: 'Roboto', sans-serif ;
 	font-size:15px;
-	font-weight:bold;
- }
-
- #fb, #github, #ig, #twitter {
-	padding-top:20px ; 
-	width:3%
- }
-
- .footer{
-	color:black;
-	margin-top:20px; }
-	
-/**********Contact*/
-.first-contact, .second-contact{
-    text-align: center;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#phone{
-    height: 30px;
-    width:30px;
-    margin-right: 30px;
-}
-
+	font-weight:bold; }
 
 /*PC*/
 @media(max-width:1281px){
@@ -165,7 +121,8 @@ body{
 		display:block ;
 		position: relative;
     }
-	
+	#head3{
+		height:90% }
 	
 	}#hr{width: 100% ;
 		background: white}
@@ -180,3 +137,27 @@ body{
 		font-size: 50px ;}
 			
     }
+	
+	
+
+	#collections, .first-collections{
+		margin-top : 100px;
+		margin-bottom: 50px;
+		text-align: center;
+		width: 100%;	
+	
+	}
+	.col{
+		padding: 1%;
+	}
+
+	
+
+
+
+
+	#contact{
+		margin: 0px;
+		width:100%
+	
+	}
